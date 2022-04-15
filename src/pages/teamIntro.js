@@ -7,6 +7,10 @@ const teamIntroPage = () => (
   <Layout>
     <Link to="/">Back to the home page</Link>
     <h1>Meet Top 3 && !(2||3)</h1>
+    <p className="teamDescription">
+    We are a group of 4 computer science and electrical engineering majors at the University of Iowa. 
+    Read a summary of our information below and click on each member's link to get to know them.
+    </p>
     <div>
       <Link to="/anthonyPage/">Anthony</Link>
       <StaticImage

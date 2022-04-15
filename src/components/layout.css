@@ -128,7 +128,7 @@ samp {
 }
 
 .navBarLink{
-  margin: 5px;
+  margin: 10px;
 }
 .right{
   text-align: right;
@@ -154,6 +154,12 @@ div.right-container{
 }
 p.personalPageInfo{
   text-align: center;
+}
+p.teamDescription{
+  text-align: center;
+  padding-right:150px;
+  padding-left:150px;
+
 }
 figure {
   margin-left: 0;
