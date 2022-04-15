@@ -130,6 +130,9 @@ samp {
 .navBarLink{
   margin: 5px;
 }
+.right{
+  text-align: right;
+}
 
 div.linkRefs{
   text-align:center;
@@ -139,6 +142,17 @@ div.image-container{
   align-items: center;
   justify-content: center;
 }
+div.rightInfo{
+  Display:flex;
+  align-items: right;
+  justify-content: right;
+}
+div.right-container{
+  Display:flex;
+  align-items: right;
+  justify-content: right;
+}
+
 figure {
   margin-left: 0;
   margin-right: 0;
