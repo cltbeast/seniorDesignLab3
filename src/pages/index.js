@@ -3,28 +3,28 @@ import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 
 import Layout from "../components/layout"
-import Seo from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
-    <Seo title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <StaticImage
-      src="../images/gatsby-astronaut.png"
-      width={300}
-      quality={95}
-      formats={["auto", "webp", "avif"]}
-      alt="A Gatsby astronaut"
-      style={{ marginBottom: `1.45rem` }}
-    />
+    <link rel="stylesheet" href = "../components/layout.css"></link>
+    <h1 className = 'header'>Click the links below to learn more about us!</h1>
+    <div className = 'linkRefs'>
     <p>
-      <Link to="/page-2/">Go to page 2</Link> <br />
-      <Link to="/using-typescript/">Go to "Using TypeScript"</Link> <br />
-      <Link to="/using-ssr">Go to "Using SSR"</Link> <br />
-      <Link to="/using-dsg">Go to "Using DSG"</Link>
+      <Link className = 'navBarLink' to="/teamIntro/">Team Introduction</Link>
+      <Link className = 'navBarLink' to="/anthonyPage/">Anthony Berns-Leone</Link> 
+      <Link className = 'navBarLink'to="/kennethPage/">Kenneth Horst</Link>
+      <Link className = 'navBarLink' to="/collinPage">Collin Thornton</Link>
+      <Link className = 'navBarLink' to="/waylonPage">Waylon Weirather</Link>
     </p>
+    </div>
+    <div className = 'image-container'>
+    <StaticImage
+      src="../images/tigerhawk.png"
+      width={300}
+      quality={90}
+      alt="iowa tigerhawk"
+    />
+    </div>
   </Layout>
 )
 

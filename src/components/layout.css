@@ -72,20 +72,21 @@ dfn {
   font-style: italic;
 }
 h1 {
+  text-align: center;
   margin-left: 0;
   margin-right: 0;
   margin-top: 0;
   padding-bottom: 0;
   padding-left: 0;
   padding-right: 0;
-  padding-top: 0;
+  padding-top: 25px;
   margin-bottom: 1.45rem;
-  color: inherit;
+  color: black;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
-  font-size: 2.25rem;
+  font-size: 35px;
   line-height: 1.1;
 }
 mark {
@@ -109,16 +110,11 @@ sup {
   top: -0.5em;
 }
 img {
-  border-style: none;
-  max-width: 100%;
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
-  margin-bottom: 1.45rem;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  width:50%;
+  margin:auto;
 }
 svg:not(:root) {
   overflow: hidden;
@@ -129,6 +125,19 @@ pre,
 samp {
   font-family: monospace;
   font-size: 1em;
+}
+
+.navBarLink{
+  margin: 5px;
+}
+
+div.linkRefs{
+  text-align:center;
+}
+div.image-container{
+  Display:flex;
+  align-items: center;
+  justify-content: center;
 }
 figure {
   margin-left: 0;
