@@ -152,7 +152,9 @@ div.right-container{
   align-items: right;
   justify-content: right;
 }
-
+p.personalPageInfo{
+  text-align: center;
+}
 figure {
   margin-left: 0;
   margin-right: 0;

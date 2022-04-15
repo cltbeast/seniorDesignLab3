@@ -1,16 +1,22 @@
 import * as React from "react"
 import { Link } from "gatsby"
-
+import { StaticImage } from "gatsby-plugin-image"
 import Layout from "../components/layout"
-import Seo from "../components/seo"
 
-const SecondPage = () => (
+const anthonyPage = () => (
   <Layout>
-    <Seo title="Page two" />
-    <h1>Hi from the second page</h1>
-    <p>Welcome to page 2</p>
-    <Link to="/">Go back to the homepage</Link>
+    <Link to="/">Back to the home page</Link>
+    <h1>Anthony Berns-Leone</h1>
+    <p className="personalPageInfo">Anthony's bio</p>
+    <div className="image-container">
+    <StaticImage
+      src="../images/tigerhawk.png"
+      width={300}
+      quality={90}
+      alt="iowa tigerhawk"
+    />
+    </div>
   </Layout>
 )
 
-export default SecondPage
+export default anthonyPage
