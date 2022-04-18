@@ -21,11 +21,11 @@ const waylonPage = () => (
     />
     </div>
     <p className="personalPageInfo"> Personally, I love to play baseball and coach young pitchers. I also like to work on cars in my free time. Below
-                                      is a picture of my dad and I with his 1969 Dodge Charger at a car show. </p>
+                                      is a picture of my dad and I with his 1969 Dodge Daytona Charger at a car show. </p>
     <div className="image-container">
     <StaticImage
       src="../images/CarShowPrep.jpg"
-      width={1000}
+      width={500}
       quality={90}
       alt="Car Show Prep"
     />
