@@ -11,7 +11,7 @@ const waylonPage = () => (
                                       In the summer I work for Ameren UE, an energy provider for Illinois and Missouri. I work at the Keokuk Energy 
                                       Center shown in the picture. I have overseen the upgrade of 3 exciter units, assisted with an upgrade to the 
                                       control system for one generator, and assisted with the commissining of a newly rebuilt unit.  
-                                      \nPlease reach out to me at wpweirather@uiowa.edu with any questions, or leave a comment below!</p>
+                                      Please reach out to me at wpweirather@uiowa.edu with any questions, or leave a comment below!</p>
     <div className="image-container">
     <StaticImage
       src="../images/KeokukEnergyCenterNight.jpg"
@@ -20,7 +20,16 @@ const waylonPage = () => (
       alt="Keokuk Energy Center"
     />
     </div>
-    <p className="personalPageInfo"> Personally, I love to play baseball and coach young pitchers. I also like to work on cars in my free time. </p>
+    <p className="personalPageInfo"> Personally, I love to play baseball and coach young pitchers. I also like to work on cars in my free time. Below
+                                      is a picture of my dad and I with his 1969 Dodge Charger at a car show. </p>
+    <div className="image-container">
+    <StaticImage
+      src="../images/CarShowPrep.jpg"
+      width={1000}
+      quality={90}
+      alt="Car Show Prep"
+    />
+    </div>
   </Layout>
 )
 
