@@ -11,7 +11,7 @@ const waylonPage = () => (
     <div className="image-container">
     <StaticImage
       src="../images/KeokukEnergyCenterNight.jpg"
-      width={300}
+      width={1000}
       quality={90}
       alt="Keokuk Energy Center"
     />
