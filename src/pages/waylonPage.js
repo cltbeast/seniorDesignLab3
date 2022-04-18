@@ -2,13 +2,13 @@ import * as React from "react"
 import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 import Layout from "../components/layout"
-    const button = document.createElement('button')
-    button.innerText = 'Click me'
+    //const button = document.createElement('button')
+    //button.innerText = 'Click me'
 
-    button.addEventListener('click',()=>{
-    alert('Button was clicked!')
-  })
-  document.body.appendChild(button)
+    //button.addEventListener('click',()=>{
+    //alert('Button was clicked!')
+    //})
+    //document.body.appendChild(button)
 
 const waylonPage = () => (
   <Layout>
