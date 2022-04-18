@@ -2,9 +2,17 @@ import * as React from "react"
 import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 import Layout from "../components/layout"
+    const button = document.createElement('button')
+    button.innerText = 'Click me'
+
+    button.addEventListener('click',()=>{
+    alert('Button was clicked!')
+  })
+  document.body.appendChild(button)
 
 const waylonPage = () => (
   <Layout>
+
     <Link to="/">Back to the home page</Link>
     <h1>Waylon Weirather</h1>
     <p className="personalPageInfo"> I am a senior electrical engineering honors student with a focus in power systems at the University of Iowa. 
