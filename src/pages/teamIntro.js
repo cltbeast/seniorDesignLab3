@@ -14,7 +14,7 @@ const teamIntroPage = () => (
     <div>
       <Link to="/anthonyPage/">Anthony</Link>
       <StaticImage
-      src="../images/tigerhawk.png"
+      src="../images/HerkyAndMe.jpg"
       width={300}
       quality={90}
       alt="iowa tigerhawk"
