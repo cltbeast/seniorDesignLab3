@@ -42,7 +42,8 @@ const teamIntroPage = () => (
     </div>
     
     <div className = "right-container">
-      <Link to="/waylonPage/">WaylonTest2</Link>
+      <Link to="/waylonPage/">Waylon</Link>
+      <br></br>
       <StaticImage
       src="../images/WeiratherHeadshot.jpg"
       width={300}
