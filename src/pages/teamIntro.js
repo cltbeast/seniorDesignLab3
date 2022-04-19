@@ -42,12 +42,12 @@ const teamIntroPage = () => (
     </div>
     
     <div className = "right-container">
-      <Link to="/waylonPage/">Waylon</Link>
+      <Link to="/waylonPage/">WaylonTest2</Link>
       <StaticImage
-      src="../images/tigerhawk.png"
+      src="../images/WeiratherHeadshot.jpg"
       width={300}
       quality={90}
-      alt="iowa tigerhawk"
+      alt="Waylons Picture"
       />
     </div>
   </Layout>
