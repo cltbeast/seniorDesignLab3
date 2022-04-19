@@ -13,6 +13,7 @@ const kennethPage = () => (
       <StaticImage
         src="../images/niko.jpg"
         width={300}
+        height={400}
         quality={90}
         alt="Niko" />
     </div>
