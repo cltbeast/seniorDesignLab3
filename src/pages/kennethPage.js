@@ -17,8 +17,8 @@ const kennethPage = () => (
       quality={90}
       
       alt="Family" />
-      </div>
-    </Layout>
+  </div>
+  </Layout>
 )
 
 export default kennethPage
