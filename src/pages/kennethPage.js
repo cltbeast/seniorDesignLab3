@@ -15,42 +15,33 @@ const kennethPage = () => (
       width={300}
       height={400}
       quality={90}
+      
       alt="Alexis and Jennifer" />
-  </div>
-  <div className="image-container">
     <StaticImage
       src="../images/IMG_3443.jpg"
       width={300}
       height={400}
       quality={90}
       alt="Alexis and Kira" />
-  </div>
-  <div className="image-container">
-      <StaticImage
+    <StaticImage
         src="../images/IMG_3519.jpg"
         width={300}
         height={400}
         quality={90}
         alt="Abe" />
-    </div>
-  <div className="image-container">
-      <StaticImage
+    <StaticImage
         src="../images/niko.jpg"
         width={300}
         height={400}
         quality={90}
         alt="Niko" />
-    </div>
-    <div className="image-container">
-      <StaticImage
+    <StaticImage
         src="../images/IMG_3547.jpg"
         width={300}
         height={400}
         quality={90}
         alt="Hunter and Shadow" />
-    </div>
-    <div className="image-container">
-      <StaticImage
+    <StaticImage
         src="../images/JEKO5628.jpg"
         width={300}
         height={400}
