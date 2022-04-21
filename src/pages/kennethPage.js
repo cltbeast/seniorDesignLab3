@@ -11,51 +11,12 @@ const kennethPage = () => (
 
   <div className="image-container">
     <StaticImage
-      src="../images/LexiJen.jpg"
-      width={300}
+      src="../images/family.jpg"
       height={400}
       quality={90}
       
-      alt="Alexis and Jennifer" />
-  <div className="image-container2">
-    <StaticImage
-      src="../images/LexiKira.jpg"
-      width={300}
-      height={400}
-      quality={90}
-      alt="Alexis and Kira" />
+      alt="Family" />
   </div>
-    <StaticImage
-        src="../images/Abe.jpg"
-        width={300}
-        height={400}
-        quality={90}
-        alt="Abe" />
-  </div>
-  <div className="image-container2">
-    <StaticImage
-        src="../images/niko.jpg"
-        width={300}
-        height={400}
-        quality={90}
-        alt="Niko" />
-  </div>
-  <div className="image-container2">
-    <StaticImage
-        src="../images/HunterShadow.jpg"
-        width={300}
-        height={400}
-        quality={90}
-        alt="Hunter and Shadow" />
-  </div>
-  <div className="image-container2">
-    <StaticImage
-        src="../images/Camille.jpg"
-        width={300}
-        height={400}
-        quality={90}
-        alt="Camille" />
-    </div>
   </Layout>
 )
 
