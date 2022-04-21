@@ -17,7 +17,7 @@ const teamIntroPage = () => (
     <div>
       <Link className = "photoPadding" to="/anthonyPage/">Anthony</Link>
       <StaticImage
-      src="../images/tigerhawk.png"
+      src="../images/HerkyAndMe.jpg"
       width={300}
       quality={90}
       alt="iowa tigerhawk"
@@ -46,7 +46,13 @@ const teamIntroPage = () => (
     </div>
     
     <div className = "right-container">
+<<<<<<< HEAD
       <Link className = "photoPadding" to="/waylonPage/">WaylonTest2</Link>
+=======
+      <Link to="/waylonPage/">Waylon</Link>
+      <br>
+      </br>
+>>>>>>> cb4cf731b0c9624bf60a22af0e2ef960f386aa49
       <StaticImage
       src="../images/WeiratherHeadshot.jpg"
       width={300}
