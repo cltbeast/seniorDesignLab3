@@ -11,20 +11,20 @@ const kennethPage = () => (
 
   <div className="image-container">
     <StaticImage
-      src="../images/IMG_3091.jpg"
+      src="../images/LexiJen.jpg"
       width={300}
       height={400}
       quality={90}
       
       alt="Alexis and Jennifer" />
     <StaticImage
-      src="../images/IMG_3443.jpg"
+      src="../images/LexiKira.jpg"
       width={300}
       height={400}
       quality={90}
       alt="Alexis and Kira" />
     <StaticImage
-        src="../images/IMG_3519.jpg"
+        src="../images/Abe.jpg"
         width={300}
         height={400}
         quality={90}
@@ -36,13 +36,13 @@ const kennethPage = () => (
         quality={90}
         alt="Niko" />
     <StaticImage
-        src="../images/IMG_3547.jpg"
+        src="../images/HunterShadow.jpg"
         width={300}
         height={400}
         quality={90}
         alt="Hunter and Shadow" />
     <StaticImage
-        src="../images/JEKO5628.jpg"
+        src="../images/Camille.jpg"
         width={300}
         height={400}
         quality={90}
