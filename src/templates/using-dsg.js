@@ -3,6 +3,9 @@ import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import { useEffect } from 'react';
+import commentBox from 'commentbox.io';
+
 
 const UsingDSG = () => (
   <Layout>
@@ -19,5 +22,7 @@ const UsingDSG = () => (
     <Link to="/">Go back to the homepage</Link>
   </Layout>
 )
-
 export default UsingDSG
+
+
+

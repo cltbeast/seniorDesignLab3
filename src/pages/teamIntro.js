@@ -3,6 +3,9 @@ import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 import Layout from "../components/layout"
 
+
+const commentBox = require('commentbox.io');
+commentBox('5721843923156992-proj');
 const teamIntroPage = () => (
   <Layout>
     <Link to="/">Back to the home page</Link>
@@ -12,7 +15,7 @@ const teamIntroPage = () => (
     Read a summary of our information below and click on each member's link to get to know them.
     </p>
     <div>
-      <Link to="/anthonyPage/">Anthony</Link>
+      <Link className = "photoPadding" to="/anthonyPage/">Anthony</Link>
       <StaticImage
       src="../images/tigerhawk.png"
       width={300}
@@ -33,6 +36,7 @@ const teamIntroPage = () => (
     
     <div>
       <Link to="/collinPage/">Collin</Link>
+      
       <StaticImage
       src="../images/tigerhawk.png"
       width={300}
@@ -42,7 +46,7 @@ const teamIntroPage = () => (
     </div>
     
     <div className = "right-container">
-      <Link to="/waylonPage/">WaylonTest2</Link>
+      <Link className = "photoPadding" to="/waylonPage/">WaylonTest2</Link>
       <StaticImage
       src="../images/WeiratherHeadshot.jpg"
       width={300}
@@ -50,7 +54,14 @@ const teamIntroPage = () => (
       alt="Waylons Picture"
       />
     </div>
+    <div class="commentbox"></div>
+  
   </Layout>
+  
+  
 )
+
+  
+
 
 export default teamIntroPage
