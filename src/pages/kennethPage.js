@@ -16,7 +16,8 @@ const kennethPage = () => (
       
       alt="Family" />
   </div>
-  <Link className = 'navBarLink'to='https://www.youtube.com/watch?v=dQw4w9WgXcQ'>Click Me!!</Link>
+  <p><Link className = 'navBarLink'to='https://www.youtube.com/watch?v=dQw4w9WgXcQ'>Click Me!!</Link>
+  </p>
   </Layout>
 )
 
