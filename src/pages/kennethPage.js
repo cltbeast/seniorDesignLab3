@@ -17,17 +17,15 @@ const kennethPage = () => (
         quality={90}
         alt="Niko" />
     </div>
-    <p className ="personalPageInfo">
-      <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Click Me!</a>
-    </p>
-    <div className="image-container">
+    <Link to="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Click Me!</Link>
+    {/*<div className="image-container">
       <StaticImage
         src="../images/Abe.jpg"
         height={400}
         width={300}
         quality={90}
         alt="Abe" />
-    </div>
+    </div> */}
 
   </Layout>
 
