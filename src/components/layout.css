@@ -298,6 +298,13 @@ h2 {
   font-size: 1.62671rem;
   line-height: 1.1;
 }
+Link.photoPadding{
+  padding-bottom:50px;
+}
+div.commentbox{
+  padding-bottom:50px;
+  padding-top:100px;
+}
 h3 {
   margin-left: 0;
   margin-right: 0;
