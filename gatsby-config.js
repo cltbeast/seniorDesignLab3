@@ -1,3 +1,5 @@
+require("dotenv").config()
+
 module.exports = {
   siteMetadata: {
     title: `Team Top 3 && !(2||3)`,
@@ -31,8 +33,19 @@ module.exports = {
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
     },
+    
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
+    {
+      resolve: "gatsby-transformer-remark",
+      options: {
+          plugins: [
+              "gatsby-remark-youtube",
+              "gatsby-remark-responsive-iframe",
+          ],
+      },
+    },
+  
   ],
 }
