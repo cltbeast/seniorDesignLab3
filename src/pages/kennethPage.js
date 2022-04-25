@@ -17,9 +17,10 @@ const kennethPage = () => (
       
       alt="Family" />
   </div>
-
-  [YOUTUBE EMBED: my video](https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ)
-  [embed: my video](https://www.youtube.com/embed/dQw4w9WgXcQ)
+  <p className="Video">
+    [YOUTUBE EMBED: my video](https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ)
+    [embed: my video](https://www.youtube.com/embed/dQw4w9WgXcQ)
+  </p>
   </Layout>
 
 
