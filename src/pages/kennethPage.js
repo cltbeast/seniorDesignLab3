@@ -12,11 +12,11 @@ const kennethPage = () => (
     <div className="image-container">
       <StaticImage
         src="../images/Abe.jpg"
-        height={403}
-        width={302}
-        quality={100}
+
+        width={300}
+        quality={90}
         alt="Abe"
-        />
+      />
     </div>
   </Layout>
 )
