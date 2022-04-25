@@ -13,9 +13,10 @@ const kennethPage = () => (
     <div className="image-container">
       <StaticImage
         src="../images/Abe.jpg"
-
-
-        alt="Abe"/>
+        alt="Abe"
+        layout="constrained"
+        width="350"
+        />
     </div>
     {/*<Link to="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Click Me!</Link>
      */}
