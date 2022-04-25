@@ -11,11 +11,11 @@ const kennethPage = () => (
 
     <div className="image-container">
       <StaticImage
-        src="../images/Niko.jpg"
+        src="../images/Abe.jpg"
         height={400}
         width={300}
         quality={90}
-        alt="Niko" />
+        alt="Abe" />
     </div>
     <Link to="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Click Me!</Link>
     {/*<div className="image-container">
