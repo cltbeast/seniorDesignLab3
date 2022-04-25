@@ -17,10 +17,10 @@ const kennethPage = () => (
       
       alt="Family" />
   </div>
-  <p className="Video">
+  {/* <p className="Video">
     [YOUTUBE EMBED: my video](https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ)
     [embed: my video](https://www.youtube.com/embed/dQw4w9WgXcQ)
-  </p>
+  </p> */}
   </Layout>
 
 
