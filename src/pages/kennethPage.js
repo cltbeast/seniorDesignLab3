@@ -17,12 +17,10 @@ const kennethPage = () => (
       
       alt="Family" />
   </div>
-
-  <p>May I suggest a video instead?</p>
-    <Video
-      videoSrcURL="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-      videoTitle="Music Video on Gastby"
-    />
+  <p className="Video">
+    [YOUTUBE EMBED: my video](https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ)
+    [embed: my video](https://www.youtube.com/embed/dQw4w9WgXcQ)
+  </p>
   </Layout>
 
 
