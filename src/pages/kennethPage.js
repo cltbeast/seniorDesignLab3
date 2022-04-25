@@ -2,6 +2,7 @@ import * as React from "react"
 import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 import Layout from "../components/layout"
+import Video from "../components/video"
 
 const kennethPage = () => (
   <Layout>
@@ -16,9 +17,15 @@ const kennethPage = () => (
       
       alt="Family" />
   </div>
-  <p><Link className = 'navBarLink'to='https://www.youtube.com/watch?v=dQw4w9WgXcQ'>Click Me!!</Link>
-  </p>
+
+  <p>May I suggest a video instead?</p>
+    <Video
+      videoSrcURL="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+      videoTitle="Music Video on Gastby"
+    />
   </Layout>
+
+
 )
 
 export default kennethPage
