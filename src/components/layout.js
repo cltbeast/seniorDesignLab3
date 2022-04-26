@@ -11,7 +11,7 @@ import { useStaticQuery, graphql } from "gatsby"
 
 import Header from "./header"
 import "./layout.css"
-import commentBox from 'commentbox.io';
+const commentBox = require('commentbox.io');
 
 
 
