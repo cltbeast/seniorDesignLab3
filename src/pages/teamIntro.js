@@ -15,6 +15,7 @@ const teamIntroPage = () => (
     </p>
     <div>
       <Link className = "photoPadding" to="/anthonyPage/">Anthony</Link>
+      <p></p>
       <StaticImage
       src="../images/HerkyAndMe.jpg"
       width={300}
