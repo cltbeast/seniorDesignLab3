@@ -16,7 +16,9 @@ import "./layout.css"
 
 
 const Layout = ({ children }) => {
-  commentBox('5721843923156992-proj');
+  React.useEffect(() =>{
+    commentBox('5721843923156992-proj');
+  },[])
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
