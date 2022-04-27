@@ -62,7 +62,7 @@ const teamIntroPage = () => (
     </div>
     <div className = "row">
       <StaticImage
-       src="../images/HerkyAndMe.jpg"
+       src="../images/WeiratherHeadshot.jpg"
       width={300}
       quality={90}
       alt="Waylons Picture"
