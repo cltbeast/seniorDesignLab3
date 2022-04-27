@@ -20,7 +20,7 @@ const waylonPage = () => (
                                       Center shown in the picture. I have overseen the upgrade of 3 exciter units, assisted with an upgrade to the 
                                       control system for one generator, and assisted with the comissioning of a newly rebuilt unit.  
                                       </p>
-    <div className="image-container">
+    <div className="center-container">
     <StaticImage
       src="../images/KeokukEnergyCenterNight.jpg"
       width={1000}
