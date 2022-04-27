@@ -17,12 +17,12 @@ const IndexPage = () => (
       <Link className = 'navBarLink' to="/waylonPage">Waylon Weirather</Link>
     </p>
     </div>
-    <div className = 'image-container'>
+    <div className = 'center-container'>
     <StaticImage
-      src="../images/tigerhawk.png"
+      src="../images/PitchersPlate1.jpg"
       width={300}
       quality={90}
-      alt="iowa tigerhawk"
+      alt="Pitcher's Plate 3d Model"
     />
     </div>
   </Layout>
