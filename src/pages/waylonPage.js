@@ -19,7 +19,7 @@ const waylonPage = () => (
                                       In the summer I work for Ameren UE, an energy provider for Illinois and Missouri. I work at Ameren's Keokuk Energy 
                                       Center shown in the picture. I have overseen the upgrade of 3 exciter units, assisted with an upgrade to the 
                                       control system for one generator, and assisted with the comissioning of a newly rebuilt unit.  
-                                      Please reach out to me at wpweirather@uiowa.edu with any questions, or leave a comment below!</p>
+                                      </p>
     <div className="image-container">
     <StaticImage
       src="../images/KeokukEnergyCenterNight.jpg"
@@ -29,8 +29,10 @@ const waylonPage = () => (
     />
     </div>
     <p className="personalPageInfo"> Personally, I love to play baseball and coach young pitchers. I also like to work on cars in my free time. Below
-                                      is a picture of my dad and I with his 1969 Dodge Daytona Charger at a car show. </p>
+                                      is a picture of my dad and I with his 1969 Dodge Daytona Charger at a car show. Please reach out to me at 
+                                      wpweirather@uiowa.edu with any questions, or leave a comment below!</p>
     <div className="image-container">
+    
     <StaticImage
       src="../images/CarShowPrep.jpg"
       width={500}
