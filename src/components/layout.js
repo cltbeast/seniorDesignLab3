@@ -11,15 +11,16 @@ import { useStaticQuery, graphql } from "gatsby"
 
 import Header from "./header"
 import "./layout.css"
-//const commentBox = require('commentbox.io');
+const commentBox = require('commentbox.io');
 
 
-React.useEffect(() =>{
-  commentBox('5721843923156992-proj');
-},[])
+
 
 
 const Layout = ({ children }) => {
+  React.useEffect(() =>{
+    commentBox('5721843923156992-proj');
+  },[])
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
