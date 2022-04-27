@@ -83,15 +83,15 @@ const teamIntroPage = () => (
     <p className="introPageInfo">
     Contact Me at: wpweirather@uiowa.edu
     </p>
-    <div class = "container">
-      <div class = "box">
-        <div class = "box-row">
-          <div class = "box-cell box1">
+    <div className = "container">
+      <div className = "box">
+        <div className = "box-row">
+          <div className = "box-cell box1">
             
               Major: Electrical Engineering
             
           </div>
-          <div class = "box-cell box2">
+          <div className = "box-cell box2">
             
               Interests: Power generation and distribution
             
