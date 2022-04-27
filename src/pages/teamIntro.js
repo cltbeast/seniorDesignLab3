@@ -70,12 +70,19 @@ const teamIntroPage = () => (
     </div>
     <p className="introPageInfo">
       Major: Electrical Engineering
-      Skills: Adjusting phase and backwards Ks
-      Interests: Power generation and distribution
-      Expected Graduation: December 2022
-      Contact Me at: wpweirather@uiowa.edu
     </p>
-
+    <p className="introPageInfo">
+      Skills: Adjusting phase and backwards Ks
+    </p>
+    <p className="introPageInfo">
+      Interests: Power generation and distribution
+    </p>
+    <p className="introPageInfo">
+      Expected Graduation: December 2022
+    </p>
+    <p className="introPageInfo">
+    Contact Me at: wpweirather@uiowa.edu
+    </p>
     
     
   </Layout>
