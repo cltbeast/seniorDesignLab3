@@ -16,9 +16,6 @@ import "./layout.css"
 //const commentBox = require('commentbox.io')
 
 
-
-
-
 const Layout = ({ children }) => {
   React.useEffect(()=>{
     commentBox('5721843923156992-proj');
@@ -39,7 +36,7 @@ const Layout = ({ children }) => {
       <div
         style={{
           margin: `0 auto`,
-          maxWidth: 960,
+          maxWidth: 1200,
           padding: `0 1.0875rem 1.45rem`,
         }}
       >

@@ -13,9 +13,12 @@ const teamIntroPage = () => (
     We are a group of 4 computer science and electrical engineering majors at the University of Iowa. 
     Read a summary of our information below and click on each member's link to get to know them.
     </p>
-    <div>
-      <Link className = "photoPadding" to="/anthonyPage/">Anthony</Link>
-      <p className="teamDescription"> </p>
+    <div class="row-caption">
+      <div class = "column-name">
+      <Link to="/anthonyPage/">Anthony</Link>
+      </div>
+    </div>
+    <div className = "row">
       <StaticImage
       src="../images/HerkyAndMe.jpg"
       width={300}
@@ -24,19 +27,26 @@ const teamIntroPage = () => (
       />
     </div>
     
-    <div className="right-container">
-      <Link to="/kennethPage/">Kenneth</Link>
+    <div className="row-caption">
+        <div class = "column-name">
+          <Link to="/kennethPage/">Kenneth</Link>
+        </div>
+      <div className = "row">
       <StaticImage
       src="../images/tigerhawk.png"
       width={300}
       quality={90}
       alt="iowa tigerhawk"
       />
+      </div>
     </div>
     
-    <div>
+    <div class="row-caption">
+      <div class = "column-name">
       <Link to="/collinPage/">Collin</Link>
-      
+      </div>
+    </div>
+    <div className = "row">
       <StaticImage
       src="../images/tigerhawk.png"
       width={300}
@@ -44,19 +54,23 @@ const teamIntroPage = () => (
       alt="iowa tigerhawk"
       />
     </div>
-    
-    <div className = "right-container">
-      <Link className = "photoPadding" to="/waylonPage/">WaylonTest2</Link>
+
+    <div class="row-caption-last">
+      <div class = "column-name">
+      <Link to="/waylonPage/">Waylon</Link>
+      </div>
+    </div>
+    <div className = "row">
       <StaticImage
-      src="../images/WeiratherHeadshot.jpg"
+       src="../images/HerkyAndMe.jpg"
       width={300}
       quality={90}
       alt="Waylons Picture"
       />
     </div>
+
     
-    <div class="commentbox"></div>
-  
+    
   </Layout>
   
   
