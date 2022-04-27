@@ -213,6 +213,11 @@ div.right-container{
   align-items: right;
   justify-content: right;
 }
+div.center-container{
+  Display:flex;
+  align-items: center;
+  justify-content: center;
+}
 p.personalPageInfo{
   text-align: center;
 }

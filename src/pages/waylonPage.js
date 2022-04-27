@@ -31,14 +31,13 @@ const waylonPage = () => (
     <p className="personalPageInfo"> Personally, I love to play baseball and coach young pitchers. I also like to work on cars in my free time. Below
                                       is a picture of my dad and I with his 1969 Dodge Daytona Charger at a car show. Please reach out to me at 
                                       wpweirather@uiowa.edu with any questions, or leave a comment below!</p>
-    <div className="image-container">
+    <div className="center-container">
     
     <StaticImage
       src="../images/CarShowPrep.jpg"
       width={500}
       quality={90}
       alt="Car Show Prep"
-      class = "center"
     />
     </div>
   </Layout>
