@@ -38,6 +38,7 @@ const waylonPage = () => (
       width={500}
       quality={90}
       alt="Car Show Prep"
+      class = "center"
     />
     </div>
   </Layout>
