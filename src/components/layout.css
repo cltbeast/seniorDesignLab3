@@ -3,7 +3,7 @@ html {
   -webkit-text-size-adjust: 100%;
   font: 112.5%/1.45em georgia, serif, sans-serif;
   box-sizing: border-box;
-  overflow-y: scroll;
+  overflow-y: auto;
 }
 body {
   margin: 0;
@@ -134,13 +134,74 @@ samp {
   text-align: right;
 }
 
+p.photo-caption{
+  padding-top:25px;
+  text-align: left;
+  font-style:italic;
+
+}
+p.photo-caption-right{
+  padding-top:25px;
+  text-align:center;
+  font-style:italic;
+  padding-left:8%;
+}
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+  padding-left:10%;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.column-caption {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+.column-name {
+  float: left;
+  width: 75%;
+  padding-left:10%;
+  padding-bottom:5px;
+}
+.commentbox{
+  padding-top:300px;
+}
+.column-name-right{
+  float:right;
+  width: 75%;
+  padding-right:10%;
+  padding-bottom:5px;
+}
+.row-caption::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.row-caption-last::after {
+  content: "";
+  clear: both;
+  display: table;
+  padding-bottom:50px;
+}
+div.row-right::after{
+  content: "";
+  clear: both;
+  display: table;
+}
+
 div.linkRefs{
   text-align:center;
 }
 div.image-container{
   Display:flex;
-  align-items: center;
-  justify-content: center;
+  align-items: left;
+  justify-content: left;
+  padding-left:10%;
 }
 div.rightInfo{
   Display:flex;
@@ -366,6 +427,7 @@ h6 {
   font-size: 0.78405rem;
   line-height: 1.1;
 }
+
 hgroup {
   margin-left: 0;
   margin-right: 0;
