@@ -20,7 +20,9 @@ import "./layout.css"
 
 
 const Layout = ({ children }) => {
-  commentBox('5721843923156992-proj');
+  React.useEffect(()=>{
+    commentBox('5721843923156992-proj');
+  })
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
@@ -43,7 +45,9 @@ const Layout = ({ children }) => {
       >
         <main>{children}
         
-        <div class="commentbox"></div></main>
+        <div class="commentbox"/>
+          <script src="https://unpkg.com/commentbox.io/dist/commentBox.min.js"></script>
+        </main>
         <footer
           style={{
             marginTop: `2rem`,
