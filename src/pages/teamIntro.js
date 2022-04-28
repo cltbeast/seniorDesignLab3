@@ -51,11 +51,11 @@ const teamIntroPage = () => (
       />
       </div>
       <div class = "column-list">
-        <p>Major:</p>
-        <p>Skills:</p>
-        <p>Interests:</p>
-        <p>Expected Graduation:</p>
-        <p>Contact Me at:</p>
+        <p>Major:Computer Engineering and Electrical Engineering</p>
+        <p>Skills: WireShark, ADM, Powershell, Python, C++</p>
+        <p>Interests:Robotics, Cybersecurity</p>
+        <p>Expected Graduation: May 2023</p>
+        <p>Contact Me at: kenneth-horst@uiowa.edu</p>
       </div>
     </div>
     
