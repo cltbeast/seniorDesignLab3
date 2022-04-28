@@ -18,7 +18,7 @@ const anthonyPage = () => (
     />
 
     </div>
-    <p className="personalPageInfo">In my free time I enjoy writing and playing music, playing soccer, and spoiling my cat, Sergio.  Want to know more? Ask!</p>
+    <p className="personalPageInfo">In my free time I enjoy writing and playing music, playing in local soccer leagues, and spoiling my cat, Sergio.  Want to know more? Ask!</p>
     <div className="image-container">
     <StaticImage
       src="../images/SoccerPic.jpg"
