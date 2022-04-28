@@ -13,60 +13,96 @@ const teamIntroPage = () => (
     We are a group of 4 computer science and electrical engineering majors at the University of Iowa. 
     Read a summary of our information below and click on each member's link to get to know them.
     </p>
-    <div class="row-caption">
-      <div class = "column-name">
-      <Link to="/anthonyPage/">Anthony</Link>
-      </div>
-    </div>
-    <div className = "row">
+    <div className="row-caption">
+        <div class = "column-name">
+          <Link to="/anthonyPage/">Anthony</Link>
+        </div>
+        </div>
+      <div className = "row">
+      <div class="column-photo">
       <StaticImage
       src="../images/HerkyAndMe.jpg"
       width={300}
       quality={90}
       alt="iowa tigerhawk"
       />
+      </div>
+      <div class = "column-list">
+        <p>Major:</p>
+        <p>Skills:</p>
+        <p>Interests:</p>
+        <p>Expected Graduation:</p>
+        <p>Contact Me at:</p>
+      </div>
     </div>
     
     <div className="row-caption">
         <div class = "column-name">
           <Link to="/kennethPage/">Kenneth</Link>
         </div>
+        </div>
       <div className = "row">
+      <div class="column-photo">
       <StaticImage
       src="../images/tigerhawk.png"
       width={300}
       quality={90}
       alt="iowa tigerhawk"
       />
+      </div>
+      <div class = "column-list">
+        <p>Major:</p>
+        <p>Skills:</p>
+        <p>Interests:</p>
+        <p>Expected Graduation:</p>
+        <p>Contact Me at:</p>
       </div>
     </div>
     
-    <div class="row-caption">
-      <div class = "column-name">
-      <Link to="/collinPage/">Collin</Link>
-      </div>
-    </div>
-    <div className = "row">
+    <div className="row-caption">
+        <div class = "column-name">
+          <Link to="/collinPage/">Collin</Link>
+        </div>
+        </div>
+      <div className = "row">
+      <div class="column-photo">
       <StaticImage
       src="../images/tigerhawk.png"
       width={300}
       quality={90}
       alt="iowa tigerhawk"
       />
-    </div>
-
-    <div class="row-caption-last">
-      <div class = "column-name">
-      <Link to="/waylonPage/">Waylon</Link>
+      </div>
+      <div class = "column-list">
+        <p>Major:</p>
+        <p>Skills:</p>
+        <p>Interests:</p>
+        <p>Expected Graduation:</p>
+        <p>Contact Me at:</p>
       </div>
     </div>
-    <div className = "row">
+
+    <div className="row-caption">
+        <div class = "column-name">
+          <Link to="/waylonPage/">Waylon</Link>
+        </div>
+        </div>
+      <div className = "row">
+      <div class="column-photo">
       <StaticImage
-       src="../images/HerkyAndMe.jpg"
+      src="../images/tigerhawk.png"
       width={300}
       quality={90}
-      alt="Waylons Picture"
+      alt="iowa tigerhawk"
       />
+      </div>
+      <div class = "column-list">
+        <p>Major:</p>
+        <p>Skills:</p>
+        <p>Interests:</p>
+        <p>Expected Graduation:</p>
+        <p>Contact Me at:</p>
+      </div>
     </div>
 
     
