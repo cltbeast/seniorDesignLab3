@@ -27,7 +27,7 @@ const anthonyPage = () => (
       alt="iowa tigerhawk"
     />
     </div>
-    <p className="personalPageInfo">Sergio only drinks water straight from the tap.</p>
+    <p className="personalPageInfo">Sergio only drinks water if it is straight from the tap.</p>
     <div className="image-container">
     <StaticImage
       src="../images/SergioPhotoStitch.jpg"
