@@ -28,11 +28,11 @@ const teamIntroPage = () => (
       />
       </div>
       <div class = "column-list">
-        <p>Major:</p>
-        <p>Skills:</p>
-        <p>Interests:</p>
-        <p>Expected Graduation:</p>
-        <p>Contact Me at:</p>
+        <p>Major: Electrical Engineering</p>
+        <p>Skills: Fluent in datasheet and wiring schematics</p>
+        <p>Interests: Communication systems, matching networks, and RF circuit design</p>
+        <p>Expected Graduation: December 2022</p>
+        <p>Contact Me at: abernsleone@uiowa.edu</p>
       </div>
     </div>
     
