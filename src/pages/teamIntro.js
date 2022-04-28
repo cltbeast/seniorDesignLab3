@@ -90,35 +90,20 @@ const teamIntroPage = () => (
       <div className = "row">
       <div class="column-photo">
       <StaticImage
-      src="../images/tigerhawk.png"
+      src="../images/WeiratherHeadshot.jpg"
       width={300}
       quality={90}
       alt="iowa tigerhawk"
       />
       </div>
       <div class = "column-list">
-        <p>Major:</p>
-        <p>Skills:</p>
-        <p>Interests:</p>
-        <p>Expected Graduation:</p>
-        <p>Contact Me at:</p>
+        <p>Major: Electrical Engineering</p>
+        <p>Skills: Adjusting phase and backwards Ks</p>
+        <p>Interests: Power generation and distribution</p>
+        <p>Expected Graduation: December 2022</p>
+        <p>Contact Me at: wpweirather@uiowa.edu</p>
       </div>
     </div>
-    <p className="introPageInfo">
-      Major: Electrical Engineering
-    </p>
-    <p className="introPageInfo">
-      Skills: Adjusting phase and backwards Ks
-    </p>
-    <p className="introPageInfo">
-      Interests: Power generation and distribution
-    </p>
-    <p className="introPageInfo">
-      Expected Graduation: December 2022
-    </p>
-    <p className="introPageInfo">
-    Contact Me at: wpweirather@uiowa.edu
-    </p>
     
   </Layout>
   
