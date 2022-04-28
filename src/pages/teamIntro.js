@@ -29,8 +29,8 @@ const teamIntroPage = () => (
       </div>
       <div class = "column-list">
         <p>Major: Electrical Engineering</p>
-        <p>Skills: Fluent in datasheet and wiring schematics</p>
-        <p>Interests: Communication systems, matching networks, and RF circuit design</p>
+        <p>Skills: Fluent in datasheet and schematic</p>
+        <p>Interests: Matching networks and RF design</p>
         <p>Expected Graduation: December 2022</p>
         <p>Contact Me at: abernsleone@uiowa.edu</p>
       </div>
