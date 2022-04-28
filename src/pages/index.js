@@ -16,6 +16,12 @@ const IndexPage = () => (
       <Link className = 'navBarLink' to="/collinPage">Collin Thornton</Link>
       <Link className = 'navBarLink' to="/waylonPage">Waylon Weirather</Link>
     </p>
+    <p className="teamDescription">
+    Welcome to Team Top 3 && !(2||3)'s Home Page!
+    </p>
+    <p className="teamDescription">
+    Feel free to click around and get to know our team members
+    </p>
     </div>
     <div className = 'center-container'>
     <StaticImage
