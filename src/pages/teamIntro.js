@@ -67,19 +67,19 @@ const teamIntroPage = () => (
       <div className = "row">
       <div class="column-photo">
       <StaticImage
-      src="../images/tigerhawk.png"
+      src="../images/collinHeadshot.jpg"
       width={300}
       quality={90}
       alt="iowa tigerhawk"
       />
       </div>
       <div class = "column-list">
-        <p>Major:</p>
-        <p>Skills:</p>
-        <p>Interests:</p>
-        <p>Expected Graduation:</p>
-        <p>Contact Me at:</p>
-      </div>
+       <p>Major: Computer Science and Engineering</p>
+       <p>Skills: Full-stack Development and video games</p>
+       <p>Interests: Documentaries and Sports </p>
+       <p>Expected Graduation: December 2022</p>
+       <p>Contact Me at: collin-thornton@uiowa.edu</p>
+     </div>
     </div>
 
     <div className="row-caption">
