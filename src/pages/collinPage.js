@@ -26,8 +26,9 @@ const collinPage = () => (
         </div>
         <div class="column">
           <StaticImage
-          src="../images/collinCardinalsGame.jpeg"
+          src="../images/collinCardinalsGame.jpg"
           width={300}
+          height={225}
           quality={90}
           alt="cardinals game"
           />
@@ -36,10 +37,10 @@ const collinPage = () => (
     
     <div class="row-caption">
       <div class = "column-caption">
-      <p className = "photo-caption">A photo of my cousin, Cameron, and me at Busch Stadium in St. Louis.</p>
+      <p className = "photo-caption">My cousin, Cameron, and me at Busch Stadium in St. Louis.</p>
       </div>
       <div class = "column-caption">
-      <p className = "photo-caption-right">Another photo</p>
+      <p className = "photo-caption-right">A successful day of fishing for King Mackerel in St. Augustine, Florida.</p>
       </div>
     </div>
     
