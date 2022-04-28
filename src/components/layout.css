@@ -136,7 +136,7 @@ samp {
 
 p.photo-caption{
   padding-top:25px;
-  text-align: left;
+  text-align: center;
   font-style:italic;
 
 }
@@ -152,6 +152,18 @@ p.photo-caption-right{
   padding: 5px;
   padding-left:10%;
 }
+.column-photo {
+  float: left;
+  width: 50%;
+  padding: 5px;
+  padding-left:10%;
+}
+.column-list{
+  float: left;
+  padding-top:3%;
+  align-content: left;
+  font-weight:bold;
+}
 .row::after {
   content: "";
   clear: both;
@@ -161,12 +173,14 @@ p.photo-caption-right{
   float: left;
   width: 50%;
   padding: 5px;
+  align-items:center;
 }
 .column-name {
   float: left;
   width: 75%;
-  padding-left:10%;
+  padding-left:22%;
   padding-bottom:5px;
+  padding-top:7%;
 }
 .commentbox{
   padding-top:300px;
@@ -177,6 +191,7 @@ p.photo-caption-right{
   padding-right:10%;
   padding-bottom:5px;
 }
+
 .row-caption::after {
   content: "";
   clear: both;
@@ -199,9 +214,8 @@ div.linkRefs{
 }
 div.image-container{
   Display:flex;
-  align-items: left;
-  justify-content: left;
-  padding-left:10%;
+  align-items: center;
+  justify-content: center;
 }
 div.rightInfo{
   Display:flex;
