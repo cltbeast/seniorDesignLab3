@@ -32,6 +32,7 @@ const kennethPage = () => (
         quality={90}
         alt="Abe" />
   </div>
+  <p className="personalPageInfo"> Hunter and Shadow, Shadow with the speck on his nose. </p>
   <div className="image-container">
     <StaticImage
         src="../images/niko.jpg"
