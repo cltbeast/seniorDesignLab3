@@ -13,7 +13,7 @@ import Header from "./header"
 import "./layout.css"
 
 
-const commentBox = require('commentbox.io')
+//const commentBox = require('commentbox.io')
 
 
 const Layout = ({ children }) => {
