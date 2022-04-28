@@ -52,6 +52,7 @@ const kennethPage = () => (
   <div className="image-container">
     <StaticImage
         src="../images/Camille.jpg"
+        height={400}
         width={300}
         quality={90}
         alt="Camille" />
