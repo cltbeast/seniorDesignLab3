@@ -13,7 +13,7 @@ const collinPage = () => (
     <p className="personalPageInfo"> Hello, I am a senior Computer Science and Engineering student at the University of Iowa
    with a focus in Software Engineering. I've worked at the Surplus store here at the University of Iowa as a Computer Technician,
    restoring University hard drives and computers. In my free time I enjoy learning new things, hanging out with friends, watching sports, and playing video games.
-    Feel free to reach out to me via email at collin-thornton@uiowa.edu or by phone at 319-371-5407.  </p>
+    Feel free to reach out to me via email at collin-thornton@uiowa.edu.  </p>
     
     <div class="row">
         <div class="column">
