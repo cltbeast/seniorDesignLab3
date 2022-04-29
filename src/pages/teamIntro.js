@@ -44,7 +44,7 @@ const teamIntroPage = () => (
       <div className = "row">
       <div class="column-photo">
       <StaticImage
-      src="../images/tigerhawk.png"
+      src="../images/kenneth-photo.jpeg"
       width={300}
       quality={90}
       alt="iowa tigerhawk"
