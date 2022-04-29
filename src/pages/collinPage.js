@@ -18,7 +18,7 @@ const collinPage = () => (
     <div className="center-container">
     <StaticImage
       src="../images/collinCardinalsGame.jpeg"
-      width={300}
+      width={400}
       quality={90}
       alt="collin game"
     />
@@ -28,7 +28,7 @@ const collinPage = () => (
     
     <StaticImage
       src="../images/collinFishing.jpg"
-      width={300}
+      width={400}
       quality={90}
       alt="fishing"
     />

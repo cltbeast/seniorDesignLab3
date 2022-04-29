@@ -230,6 +230,7 @@ div.center-container{
   Display:flex;
   align-items: center;
   justify-content: center;
+  padding-top:4%;
 }
 p.personalPageInfo{
   text-align: center;
