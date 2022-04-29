@@ -28,7 +28,7 @@ const collinPage = () => (
         </div>
         <div class="column">
           <StaticImage
-          src="../images/collinFishing.jpg"
+          src="../images/collinFishingNew.jpg"
           width={300}
           height={225}
           quality={90}
