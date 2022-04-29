@@ -28,7 +28,7 @@ const waylonPage = () => (
       alt="Keokuk Energy Center"
     />
     </div>
-    <p className="personalPageInfo"> Personally, I love to play baseball and coach young pitchers. I also like to work on cars in my free time. Below
+    <p className="personalPageCaption"> Personally, I love to play baseball and coach young pitchers. I also like to work on cars in my free time. Below
                                       is a picture of my dad and I with his 1969 Dodge Daytona Charger at a car show. Please reach out to me at 
                                       wpweirather@uiowa.edu with any questions, or leave a comment below!</p>
     <div className="center-container">

@@ -233,6 +233,11 @@ div.center-container{
 p.personalPageInfo{
   text-align: center;
 }
+p.personalPageCaption{
+  text-align:center;
+  font-style:italic;
+  padding-top:5%;
+}
 .link{
   padding-left:45%;
   padding-top:10px;

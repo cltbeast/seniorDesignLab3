@@ -18,7 +18,7 @@ const anthonyPage = () => (
     />
 
     </div>
-    <p className="personalPageInfo">In my free time I enjoy writing and playing music, playing in local soccer leagues, and spoiling my cat, Sergio.</p>
+    <p className="personalPageCaption">In my free time I enjoy writing and playing music, playing in local soccer leagues, and spoiling my cat, Sergio.</p>
     <div className="image-container">
     <StaticImage
       src="../images/SoccerPic.jpg"
@@ -27,7 +27,7 @@ const anthonyPage = () => (
       alt="iowa tigerhawk"
     />
     </div>
-    <p className="personalPageInfo">Sergio only drinks water if it is straight from the tap.</p>
+    <p className="personalPageCaption">Sergio only drinks water if it is straight from the tap.</p>
     <div className="image-container">
     <StaticImage
       src="../images/SergioPhotoStitch.jpg"
@@ -36,7 +36,7 @@ const anthonyPage = () => (
       alt="iowa tigerhawk"
     />
     </div>
-    <p className="personalPageInfo">Want to know more? Leave a comment with your question!</p>
+    <p className="personalPageCaption">Want to know more? Leave a comment with your question!</p>
   </Layout>
 )
 
