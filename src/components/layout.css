@@ -235,6 +235,9 @@ div.center-container{
 p.personalPageInfo{
   text-align: center;
 }
+.link{
+  padding-left:50%;
+}
 p.teamDescription{
   text-align: center;
   padding-right: 7%;;

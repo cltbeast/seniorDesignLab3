@@ -58,7 +58,9 @@ const kennethPage = () => (
         alt="Camille" />
     </div>
     <p className="personalPageInfo">Click me!!!</p>
+    <div className = "link">
     <Link className = 'navBarLink' to="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Click Here!!</Link>
+    </div>
   </Layout>
 )
 
