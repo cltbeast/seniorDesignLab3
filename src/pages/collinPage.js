@@ -15,35 +15,27 @@ const collinPage = () => (
    restoring University hard drives and computers. In my free time I enjoy learning new things, hanging out with friends, watching sports, and playing video games.
     Feel free to reach out to me via email at collin-thornton@uiowa.edu.  </p>
     
-    <div class="row">
-        <div class="column">
-        <StaticImage
-          src="../images/collinCardinalsGame.jpeg"
-          width={300}
-          quality={90}
-          alt="cardinals game"
-        />
-        </div>
-        <div>
-        </div>
-        <div class="column">
-          <StaticImage
-          src="../images/collinCardinalsGame.jpeg"
-          width={300}
-          quality={90}
-          alt="collin fishing"
-          />
-        </div>
+    <div className="center-container">
+    <StaticImage
+      src="../images/collinCardinalsGame.jpeg"
+      width={300}
+      quality={90}
+      alt="collin game"
+    />
     </div>
+    <p className="personalPageInfo"> My cousin, Cameron, and me at Busch Stadium in St. Louis </p>
+    <div className="center-container">
     
-    <div class="row-caption">
-      <div class = "column-caption">
-      <p className = "photo-caption">My cousin, Cameron, and me at Busch Stadium in St. Louis.</p>
-      </div>
-      <div class = "column-caption">
-      <p className = "photo-caption-right">A successful day of fishing for King Mackerel in St. Augustine, Florida.</p>
-      </div>
+    <StaticImage
+      src="../images/collinFishing.jpg"
+      width={300}
+      quality={90}
+      alt="fishing"
+    />
     </div>
+    <p className="personalPageInfo"> A successful day of fishing for King Mackerel in St. Augustine, Florida. </p>
+    
+  
     
   
     
