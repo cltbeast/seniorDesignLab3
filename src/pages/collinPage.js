@@ -30,7 +30,6 @@ const collinPage = () => (
           <StaticImage
           src="../images/collinFishingNew.jpg"
           width={300}
-          height={225}
           quality={90}
           alt="cardinals game"
           />
