@@ -51,8 +51,8 @@ const teamIntroPage = () => (
       />
       </div>
       <div class = "column-list">
-        <p>Major: Computer Engineering and Electrical Engineering</p>
-        <p>Skills: WireShark, ADM, Powershell, Python, C++</p>
+        <p>Major: Computer Engi</p>
+        <p>Skills: WireShark, ADM</p>
         <p>Interests:Robotics, Cybersecurity</p>
         <p>Expected Graduation: May 2023</p>
         <p>Contact Me at: kenneth-horst@uiowa.edu</p>
