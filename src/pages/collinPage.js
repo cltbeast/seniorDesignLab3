@@ -23,7 +23,7 @@ const collinPage = () => (
       alt="collin game"
     />
     </div>
-    <p className="personalPageCaption"> My cousin, Cameron, and me at Busch Stadium in St. Louis </p>
+    <p className="personalPageCaption"> My cousin, Cameron, and me at Busch Stadium in St. Louis. </p>
     <div className="center-container">
     
     <StaticImage
