@@ -236,7 +236,8 @@ p.personalPageInfo{
   text-align: center;
 }
 .link{
-  padding-left:50%;
+  padding-left:45%;
+  padding-top:5px;
 }
 p.teamDescription{
   text-align: center;
