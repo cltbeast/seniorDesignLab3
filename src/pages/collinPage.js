@@ -31,7 +31,7 @@ const collinPage = () => (
           src="../images/collinFishingNew.jpg"
           width={300}
           quality={90}
-          alt="cardinals game"
+          alt="collin fishing"
           />
         </div>
     </div>
