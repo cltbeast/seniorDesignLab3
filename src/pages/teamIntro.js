@@ -51,7 +51,7 @@ const teamIntroPage = () => (
       />
       </div>
       <div class = "column-list">
-        <p>Major:Computer Engineering and Electrical Engineering</p>
+        <p>Major: Computer Engineering and Electrical Engineering</p>
         <p>Skills: WireShark, ADM, Powershell, Python, C++</p>
         <p>Interests:Robotics, Cybersecurity</p>
         <p>Expected Graduation: May 2023</p>
