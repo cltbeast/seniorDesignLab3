@@ -23,7 +23,7 @@ const collinPage = () => (
       alt="collin game"
     />
     </div>
-    <p className="personalPageCaptions"> My cousin, Cameron, and me at Busch Stadium in St. Louis </p>
+    <p className="personalPageCaption"> My cousin, Cameron, and me at Busch Stadium in St. Louis </p>
     <div className="center-container">
     
     <StaticImage
@@ -33,7 +33,7 @@ const collinPage = () => (
       alt="fishing"
     />
     </div>
-    <p className="personalPageCaptions"> A successful day of fishing for King Mackerel in St. Augustine, Florida. </p>
+    <p className="personalPageCaption"> A successful day of fishing for King Mackerel in St. Augustine, Florida. </p>
     
   
     
