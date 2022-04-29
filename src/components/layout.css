@@ -214,6 +214,7 @@ div.image-container{
   Display:flex;
   align-items: center;
   justify-content: center;
+  padding-top:4%;
 }
 div.rightInfo{
   Display:flex;
